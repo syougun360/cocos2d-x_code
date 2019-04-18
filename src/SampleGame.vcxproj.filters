@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{ef826dc1-ba06-46a4-a57a-6eb486c1bdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{cf8e75cd-78ef-46c5-8dfd-62df684c4a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{a6964970-0318-46bd-a35d-fa2af3609f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{14a949e2-cd8a-4248-a218-bde41cf43fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{1aa5b8a2-9a6b-441f-9d34-da5f4be55aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Audio">
+      <UniqueIdentifier>{ffb5443f-c7bf-4b9c-944c-2a2027eb02b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Math">
+      <UniqueIdentifier>{96cf9efc-4061-4ac9-bb0b-cf233905424d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Graphics">
+      <UniqueIdentifier>{44204253-acd8-42b2-8b90-87089b4ee28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Sprite">
+      <UniqueIdentifier>{5d126afa-25e6-4dda-a896-7d36315ef4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Text">
+      <UniqueIdentifier>{1857db2b-25bd-47cf-952a-11253206be70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Graphic">
+      <UniqueIdentifier>{17e79671-7f0c-476b-964c-7c1f50363d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior">
+      <UniqueIdentifier>{2e97ad85-0fde-4829-9ebd-15e7a7993a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior\Conponent">
+      <UniqueIdentifier>{f7daa622-1918-43ed-a204-d80d0785522f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior\Hierarchy">
+      <UniqueIdentifier>{dc1ddb33-3a48-425b-b868-27068e3fc165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior\GameObject">
+      <UniqueIdentifier>{31f8668e-1efd-4097-b73b-eea529c6316c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyEvent.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchEvent.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchesEvent.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioAssets.cpp">
+      <Filter>Utility\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMPlayer.cpp">
+      <Filter>Utility\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="SEPlayer.cpp">
+      <Filter>Utility\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="iTween.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAssets.cpp">
+      <Filter>Utility\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="FontAssets.cpp">
+      <Filter>Utility\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Graphics\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Graphics\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Graphics\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Graphics\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Behavior\Conponent</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBehavior.cpp">
+      <Filter>Behavior\Conponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Hierarchy.cpp">
+      <Filter>Behavior\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityHierarchy.cpp">
+      <Filter>Behavior\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Behavior\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Behavior\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerChild.cpp" />
+    <ClCompile Include="PlayerMover.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchEvent.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchesEvent.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="using.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioAssets.h">
+      <Filter>Utility\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMPlayer.h">
+      <Filter>Utility\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SEPlayer.h">
+      <Filter>Utility\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="iTween.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAssets.h">
+      <Filter>Utility\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="FontAssets.h">
+      <Filter>Utility\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicNode.h">
+      <Filter>Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBehavior.h">
+      <Filter>Behavior\Conponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Behavior\Conponent</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityHierarchy.h">
+      <Filter>Behavior\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="Hierarchy.h">
+      <Filter>Behavior\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Behavior\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Behavior\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerChild.h" />
+    <ClInclude Include="PlayerMover.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
